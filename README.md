@@ -3,7 +3,7 @@
 This repository contains my professional resumes from my second year of education to the present day. It serves as a historical record of my professional growth and development.
 
 ## Current Resume
-[](https://github.com/Arpit529Srivastava/RESUME_Archive/blob/main/Arpit_Srivastava_12_06_2025.pdf)
+[Latest](https://github.com/Arpit529Srivastava/RESUME_Archive/blob/main/Arpit_Srivastava_12_06_2025.pdf)
 
 ## Archive Structure
 The repository is organized chronologically, with each resume version stored in its respective directory. This allows for easy tracking of professional development and career progression over time.
