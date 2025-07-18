@@ -3,7 +3,7 @@
 This repository contains my professional resumes from my second year of education to the present day. It serves as a historical record of my professional growth and development.
 
 ## Current Resume
-[Latest](https://github.com/Arpit529Srivastava/RESUME_Archive/raw/main/Arpit_Srivastava_14_07_2025.pdf)
+[Latest](https://github.com/Arpit529Srivastava/RESUME_Archive/raw/main/Arpit_Srivastava_18_07_2025.pdf)
 
 
 ## Archive Structure
