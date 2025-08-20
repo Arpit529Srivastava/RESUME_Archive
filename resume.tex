@@ -132,18 +132,23 @@
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+% \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+% \newcommand{\resumeItemListStart}{\begin{itemize}}
+% \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% For normal sections (Experience, Skills, Achievements)
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[ label=$\vcenter{\hbox{\tiny$\bullet$}}$, itemsep=2pt, parsep=1pt, topsep=4pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
 
 
 \newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
 
 
@@ -162,16 +167,16 @@
     \hspace{10pt} % Adds space between LinkedIn and GitHub
     \href{https://github.com/arpit529srivastava}{\raisebox{-0.2\height}\faGithubSquare\ \underline{Arpit529Srivastava}}
 \end{center}
-
+\vspace{-12pt}
 %-----------EDUCATION-----------
 \section{EDUCATION}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Dayananda Sagar College of Engineering}{OCT 2023 -- PRESENT}
-      {Information Science and Engineering -  \textbf{8.8 CGPA}}{Bangalore, India}
-      \vspace{-7pt}
+      {B.E - Information Science and Engineering -  \textbf{8.8 CGPA}}{Bangalore, India}
+    
   \resumeSubHeadingListEnd
-
+ \vspace{-14pt}
   
 
 %------RELEVANT COURSEWORK-------
@@ -207,89 +212,78 @@
      \textbf{\normalsize{Tools/Databases:}}{\normalsize{ Git, Firebase, MongoDB, Github, Docker, Kubernetes, CI/CD, AWS, GitOps, CloudeFlare}}
     }}
  \end{itemize}
- \vspace{-13pt}
+ \vspace{-16pt}
 
 
- \section{EXPERIENCE}
-\resumeSubHeadingListStart
-
-\resumeSubheading
-{\href{https://www.kratitech.com}{\underline{Krati Tech}}}{July 2025 – Present}
-{Devops Engineer: Angular.js, Golang, MySQL, GitHub Actions, Testing}{Remote · India}
+\section{EXPERIENCE}
+\textbf{\underline{\large KratiTech}} \hfill \textbf{July 2025 -- Present} \\
+\textit{DevOps Engineer: Angular.js, Golang, MySQL, GitHub Actions, Testing}
+\hfill \textit{Remote · India}
+\vspace{-0.4em}
 \resumeItemListStart
-\resumeItem{Building and maintaining full stack applications using \textbf{Angular.js}, \textbf{Go (Gin)}, and \textbf{MySQL}, while ensuring seamless user experience and backend performance.}
-\resumeItem{Owning end-to-end DevOps lifecycle including \textbf{CI/CD automation with GitHub Actions}, cloud deployment, unit and integration testing \textbf{(go/testify)} and production monitoring for high system reliability.}
+  \resumeItem{Building and maintaining full stack applications using \textbf{Angular.js}, \textbf{Go (Gin)}, and \textbf{MySQL}, while ensuring seamless user experience and backend performance.}
+  \vspace{-0.4em}
+  \resumeItem{Owning end-to-end DevOps lifecycle including \textbf{CI/CD automation with GitHub Actions}, cloud deployment, unit and integration testing \textbf{(go/testify)} and production monitoring for high system reliability.}
 \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
+ \vspace{-6pt}
  
  %-----------OPEN SOURCE-----------
 \section{OPEN SOURCE CONTRIBUTIONS}
 \vspace{-5pt}
 \resumeSubHeadingListStart
 
-
 \resumeProjectHeading
-{\href{https://github.com/meshery/meshery}{\textbf{\large{\underline{Meshery (CNCF)}}}} 
+{\href{https://github.com/meshery/meshery}{\textbf{\large{\underline{Meshery (CNCF)}}}}
 \href{https://gist.github.com/Arpit529Srivastava/7f690bca6f7bc55bbc7b2f53d274bc02}{\raisebox{-0.1\height}\faExternalLink}}
 
-\resumeItem{\normalsize{Contributed to Meshery by improving its \textbf{CLI} using Go and the \textbf{Cobra library}. Gained hands-on experience with Meshery's architecture and improved the command line interface by implementing structured commands, better flag handling, and improving overall usability}}
-
-\vspace{-12pt}
+\resumeItemListStart
+\resumeItem{\normalsize{Contributed to Meshery by improving its \textbf{CLI} using Go and the \textbf{Cobra library}, implementing structured commands and better flag handling.}}
+\resumeItem{\normalsize{Gained hands-on experience with Meshery's architecture while enhancing overall CLI usability and user experience.}}
+\resumeItemListEnd
+\vspace{-18pt}
 
 \resumeProjectHeading
-{\href{https://github.com/kubestellar}{\textbf{\large\underline{Kubestellar (CNCF)}}} 
+{\href{https://github.com/kubestellar}{\textbf{\large\underline{Kubestellar (CNCF)}}}
 \href{https://gist.github.com/Arpit529Srivastava/0aac65ec10eb5fe47b015e465019f4c5}{\raisebox{-0.1\height}{\faExternalLink}}}
 
-\resumeItem{\normalsize{Made \textbf{15+ impactful contributions} across Kubestellar (CNCF), enhancing \textbf{Kubernetes onboarding}, improving \textbf{Helm chart configurations}, and optimizing the \textbf{UI/UX} with smooth transitions, theme toggling, and dynamic zoom. Added \textbf{unit tests} for backend reliability and introduced \textbf{context-aware features} in \textbf{KubeFlex-cli} for better multi-cluster management.}}
+\resumeItemListStart
+\resumeItem{\normalsize{Made \textbf{15+ impactful contributions} across Kubestellar (CNCF), enhancing \textbf{Kubernetes onboarding}, improving \textbf{Helm chart configurations} and optimizing the \textbf{UI/UX} with smooth transitions, theme toggling and dynamic zoom. }}
+\resumeItem{\normalsize{Added \textbf{unit tests} for backend reliability and introduced \textbf{context-aware features} in \textbf{KubeFlex-cli} for better multi-cluster management.}}
 \resumeItemListEnd
-\vspace{-11pt} % Adjust spacing
+ % Adjust spacing
+
+\resumeSubHeadingListEnd
 
 
-
-%-----------PROJECTS-----------
+\vspace{-14pt}
 \section{PROJECTS}
-\vspace{-5pt}
+\vspace{-6pt}
 \resumeSubHeadingListStart
+
 \resumeProjectHeading
-  {\textbf{\large{\underline{DriftGuard}}} 
-  \small{$|$ \textit{Kubernetes API, Prometheus, GitOps, Terraform, AWS SDK, GitHub Actions, AI/ML, Docker }}
-  }
-  {
-  \href{https://github.com/DriftGuard}{\underline{GitHub}} % Update with actual link
-  }
+{\textbf{\large{\underline{DriftGuard}}} \small{$|$ \textit{Kubernetes API, Prometheus, GitOps, Terraform, AWS SDK, GitHub Actions, AI/ML, Docker}}}
+{\href{https://github.com/DriftGuard}{\underline{GitHub}}}
 \vspace{-12pt}
 \resumeItemListStart
 \resumeItem{\normalsize{Built a production-grade \textbf{drift detection engine in Go} for Kubernetes, comparing live cluster state with GitOps manifests and reducing config-related outages by \textbf{70\%}, saving an estimated \textbf{50K/month} in cloud debugging and downtime costs.}}
-\resumeItem{\normalsize{Integrated \textbf{Prometheus monitoring, MCP-based AI drift scoring}, and Slack/webhook alerts, used \textbf{GitHub Actions} to automate CI pipelines for drift verification and environment sync checks.}}
+\resumeItem{\normalsize{Integrated \textbf{Prometheus monitoring, MCP-based AI drift scoring} and Slack/webhook alerts, used \textbf{GitHub Actions} to automate CI pipelines for drift verification and environment sync checks.}}
 \resumeItem{\normalsize{Implemented \textbf{InfraOps drift detection} by integrating \textbf{Terraform .tfstate diffing} and \textbf{AWS SDK auditing}, enabling early detection of infrastructure misalignment and supporting future auto-remediation.}}
 \resumeItemListEnd
-
-
-\vspace{-12pt}
+\vspace{-14pt}
 
 \resumeProjectHeading
-{\textbf{\large{\underline{NotifyOps}}}
-\small{$|$ \textit{Docker, Kubernetes, Prometheus, Grafana, Slack API, GitHub Webhooks, Terraform, GitHub Actions}}
-}
-{
-\href{https://github.com/Arpit529Srivastava/NotifyOps}{\underline{GitHub}}
-}
+{\textbf{\large{\underline{NotifyOps}}} \small{$|$ \textit{Docker, Kubernetes, Prometheus, Grafana, Slack API, GitHub Webhooks, Terraform, GitHub Actions}}}
+{\href{https://github.com/Arpit529Srivastava/NotifyOps}{\underline{GitHub}}}
 \vspace{-12pt}
 \resumeItemListStart
-\resumeItem{\normalsize{Built an AI-powered workflow in \textbf{Go} to help teams stay informed by summarizing GitHub issues/ pull request and sending them as focused, actionable notifications to Slack, making it easier for everyone to respond quickly.}}
+\resumeItem{\normalsize{Built an AI-powered workflow in \textbf{Go} to help teams stay informed by summarizing GitHub issues/pull requests and sending them actionable notifications to Slack, making it easier for everyone to respond quickly.}}
 \resumeItem{\normalsize{Ensured the system’s health, clarity, and scalability by integrating \textbf{Prometheus and Grafana} for monitoring, and handled deployment using containerization \textbf{Docker} together with automated \textbf{Kubernetes} set-ups.}}
-\resumeItem{\normalsize{Developed secure handling of real-time \textbf{GitHub webhooks with interactive Slack features}, allowed easy tuning of \textbf{AI analysis profile}s, and wrote backend \textbf{unit tests covering core business} logic to maintain code reliability.}}
+\resumeItem{\normalsize{Developed secure handling of real-time \textbf{GitHub webhooks with interactive Slack features}, allowed easy tuning of \textbf{AI analysis profiles}, and wrote backend \textbf{unit tests covering core business} logic to maintain code reliability.}}
 \resumeItemListEnd
 
-
-\vspace{-10pt} % Adjusts spacing between projects
-
 \resumeSubHeadingListEnd
-\vspace{-5pt} % Adjusts spacing between projects
 
-
+\vspace{-12pt}
 %-----------INVOLVEMENT---------------
 \section{ACHIEVEMENTS}
 
@@ -307,7 +301,7 @@ $\sbullet[.75] \hspace{0.1cm}$
 $\sbullet[.75] \hspace{0.1cm}$ 
 \textbf{3* at CodeChef:} Achieved the highest rating of \textbf{1724} with Global Rank: \textbf{181} which is \textbf{0.62\%} of the total participants\\
 
-\vspace{-6pt}
+
  
 
 %-----------OPEN SOURCE CONTRIBUTIONS-----------
